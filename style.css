@@ -194,3 +194,55 @@ h3 {
 #product-more {
   margin: 0 auto -42px auto;
 }
+
+/* aboutus */
+#aboutus {
+  margin: 80px auto 80px auto;
+}
+/* 3つの組織文化と画像を入れる枠 */
+#aboutus > div {
+  display: flex;
+}
+/* 画像 */
+.culture-img {
+  width: 100%;
+  align-self: flex-start;
+}
+
+.culture-img2 {
+  margin-top: 50px;
+  width: 100%;
+}
+
+/* 3つの組織文化の表 */
+.culture-table {
+  margin-right: 50px; 
+}
+
+/* 番号 */
+.culture-num {
+  font-size: 80px;
+  color: #2710d5;
+  margin-right: 20px;
+}
+/* 英語の見出し */
+.culture-en {
+  color: #2710d5;
+  font-weight: bold;
+  font-size: 24px;
+  display: block;
+}
+/* 日本語の見出し */
+.culture-jp {
+  font-size: 28px;
+  font-weight: bold;
+}
+/* 説明文 */
+.culture-description {
+  margin: 0;
+}
+
+
+div {
+  border: skyblue solid;
+}
