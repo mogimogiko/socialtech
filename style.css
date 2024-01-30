@@ -242,6 +242,64 @@ h3 {
   margin: 0;
 }
 
+/* ビジョン */
+#vision {
+  margin: 80px auto 80px auto;
+}
+/* section内の外枠 */
+#vision > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/* 7つの行動指針の枠 */
+.vision-box {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 30px;
+  position: relative;
+}
+/* 行動指針の画像 */
+.vision-box > img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 30;
+}
+/* 見出しと説明文 */
+.vision-box > span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 31;
+  margin-right: 20px;
+}
+/* 英語の見出し */
+.vision-box > span > h4 {
+  color: #2710d5;
+  font-size: 19px;
+  margin: 80px 0 0 0;
+}
+/* 英語の見出し1文字目 */
+.vision-box > span > h4::first-letter {
+  font-size: 40px;
+}
+/* 日本語の見出し */
+.vision-box > span > h5 {
+  font-size: 20px;
+  margin: 0;
+}
+/* 説明文 */
+.vision-box > span > p {
+  margin-top: 10px;
+}
+
+
+
+
 
 div {
   border: skyblue solid;
