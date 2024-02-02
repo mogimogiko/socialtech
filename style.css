@@ -408,7 +408,56 @@ details > div > span {
   font-weight: bold;
 }
 
+/* フッター */
+footer {
+  background-color: #0d0d0d;
+  text-align: center;
+  padding: 80px 80px 30px 80px;
+}
+/* ロゴ */
+#footer-logo {
+  margin-bottom: 30px;
+}
+/* ハイパーリンク */
+#footer-link {
+  margin-bottom: 50px;
+}
+#footer-link > a {
+  text-decoration: none;
+  margin: 10px;
+}
+/* 未訪問リンク */
+#footer-link > a:link {
+  color: #ffffff;
+}
+/* 訪問済みリンク */
+#footer-link > a:visited {
+  color: #ffffff;
+}
+/* マウスカーソル */
+#footer-link > a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+/* クリック時 */
+#footer-link > a:active {
+  color: #ffffff;
+}
 
+/* SNS */
+#sns-footer {
+  text-align: left;
+  width: 100%;
+}
+/* snsハイパーリンク */
+#sns-footer > a {
+  margin-right: 30px;
+}
+/*  */
+#copyright {
+  color: #ffffff;
+  float: right;
+}
 
 div {
   border: skyblue solid;
