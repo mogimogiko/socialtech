@@ -629,4 +629,97 @@ PC用のスタイル
   #s2dgs {
     width: 100%;
   }
+
+  /* プロダクト */
+  #product {
+    background-color: #fafafa;
+    padding: 10px;
+  }
+  #product h2 {
+    margin-left: 20px;
+  }
+  /* 外枠 */
+  /* 左右のカラム、スマホでは縦並び */
+  #product-left,
+  #product-right {
+    margin: 0 20px 0 20px;
+  }
+  /* 画像＋説明の枠 */
+  /* 見出し、説明文 */
+  #product-left > div,
+  #product-right > div {
+    position: relative;
+    height: 540px;  
+  }
+  /* 説明文の枠 */
+  .product-explain {
+    background-color: #ffffff;
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05);
+  }
+  /* 英語の見出し */
+  .product-explain > span {
+    color: #2710d5;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0;
+  }
+  /* 見出し */
+  .product-explain > h3 {
+    margin: 10px 0 10px 0;
+  }
+  /* 画像 */
+  .product-photo {
+    width: 100%;
+  }
+  /* もっと見る */
+  #product-more > img {
+    margin: 0 0 -42px 20px;
+  }
+  /* ABOUT US */
+  #aboutus {
+    margin: 80px 20px 80px 20px;
+  }
+  #aboutus > div {
+    display: flex;
+    flex-direction: column;
+  }
+  /* 表全体 */
+  .culture-table {
+    width: 100%;
+    padding-right: 20px;
+    order: 2;
+  }
+  /* 画像 */
+  .culture-img {
+    width: 100%;
+    order: 1;
+  }
+  /* 2枚目の画像 */
+  .culture-img2 {
+    width: 100%;
+  }
+  /* 番号 */
+  .culture-num {
+    font-size: 80px;
+    color: #2710d5;
+  }
+  /* 英語の見出し */
+  .culture-en {
+    color: #2710d5;
+    font-weight: bold;
+    font-size: 24px;
+    display: block;
+  }
+  /* 日本語の見出し */
+  .culture-jp {
+    display: block;
+  }
+  /*  */
+  .culture-description {
+    margin: 0;
+  }
 }
