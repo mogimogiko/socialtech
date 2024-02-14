@@ -499,6 +499,95 @@ PC用のスタイル
   #menu-sp {
     display: none;
   }
+  /* mission.html */
+  /* ミッションのメインビジュアル */
+  #mission-main {
+    height: 496px;
+    width: 100%;
+    background-image: url(images/mission/mission-main.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+  }
+  #mission-title {
+    background-color: #2710d5;
+    width: 368px;
+    color: #ffffff;
+    height: 496px;
+    border-radius: 0 248px 248px 0;
+    position: relative;
+  }
+  /* 英語の見出し */
+  #mission-title > h1 {
+    position: absolute;
+    top: 0;
+    left: 100px;
+    font-size: 80px;
+  }
+  /* カタカナの見出し */
+  #mission-title > span {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    font-size: 26px;
+  }
+  /* パンくず */
+  #mission-title > div {
+    position: absolute;
+    top: 350px;
+    left: 100px;
+    font-size: 16px;
+  }
+
+  /* s2dgs */
+  #mission-s2dgs {
+    width: 100%;
+    margin: 20px;
+  }
+  /*  */
+  .mission-h2 {
+    color: #2710d5;
+    font-size: 40px;
+  }
+  .mission-h2::after {
+    content: none;
+  }
+  /* 5Goals */
+  #mission-5goals {
+    margin: 20px;
+    display: flex;
+  }
+  #mission-5goals > div {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  #mission-5goals > div > div {
+    margin-bottom: 40px;
+  }
+  /* 右側表示画像 */
+  .fivegoals-image-right {
+    float: right;
+    margin: 20px;
+  }
+  /* 左側表示画像 */
+  .five-goals-image-left {
+    float: left;
+    margin: 20px;
+  }
+  /* span要素 */
+  .fivegoals-number {
+    color: #2710d5;
+    font-size: 48px;
+    margin: 0;
+  }
+  /* 見出し */
+  .fivegoals-h3 {
+    font-size: 28px;
+    margin: 0;
+  }
+  /* 説明文 */
+  .fivegoals-p {
+    margin: 0;
+  }
 }
 
 /* ================
