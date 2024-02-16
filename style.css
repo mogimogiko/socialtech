@@ -1195,4 +1195,82 @@ PC用のスタイル
     margin: 0;
   }
 
+  /* プロダクト */
+  /* section */
+  #product-main {
+    height: 256px;
+    width: 100%;
+    background-image: url(images/product/product-main.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: auto 208px;
+  }
+  /* パンくず、見出し */
+  #product-title {
+    background-color: #2710d5;
+    width: 136px;
+    color: #ffffff;
+    height: 256px;
+    border-radius: 0 248px 248px 0;
+    position: relative;
+  }
+  /* 英語の見出し */
+  #product-title > h1 {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    font-size: 40px;
+  }
+  /* カタカナの見出し */
+  #product-title > span {
+    position: absolute;
+    top: 110px;
+    left: 20px;
+    font-size: 18px;
+  }
+  /* パンくずリスト */
+  #product-title > div {
+    position: absolute;
+    top: 180px;
+    left: 20px;
+    font-size: 13px;
+  }
+
+  /* メインcontents */
+  /* 左section */
+  .product-section1 {
+    margin: 20px;
+  }
+  /* 左パターン画像 */
+  .product-section1 > img {
+    width: 100%;
+    border-radius: 0 300px 0 0;
+  }
+  /* 右パターンsection */
+  .product-section2 {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  /* 右パターン画像 */
+  .product-section2 > img { 
+    order: 1;
+    width: 100%;
+    border-radius: 300px 0 0 0;
+  }
+  /* 右パターンdiv*/
+  .product-section2 > div {
+    order: 2;
+  }
+  /* 英語の見出し */
+  .product-h2 {
+    color: #2710d5;
+    font-size: 24px;
+    margin: 0;
+  }
+  /* 日本語の見出し */
+  .product-h3 {
+    font-size: 28px;
+    margin: 0;
+  }
 }
