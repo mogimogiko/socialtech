@@ -15,6 +15,10 @@
     <meta property="og:description" content="作ってみた">
     <meta property="og:image" content="https://mogimogiko.github.io/socialtech/images/logo.png">
     <link rel="stylesheet" href="style.css" />
+
+    <!-- slickのよみこみ -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
   </head>
   <body>
     <!-- ヘッダー -->
@@ -60,17 +64,27 @@
     </header>
     <main>
       <article>
-        <!-- メインビジュアル -->
-        <section id="main-visual">
-          <div id="main-message">
-            <h1>WORLD PEACE</h1>
-            <p>IT教育で世界平和を実現する</p>
+        <!-- カルーセル -->
+        <section id="carousel-section">
+          <div class="carousel">
+            <div>
+              <a href="index.html">
+              <img src="images/carousel1.png" class="carouselImg">
+              </a>
+            </div>
+            <div>
+              <a href="mission.html">
+                <img src="images/carousel2.png" class="carouselImg">
+              </a>
+            </div>
+            <div>
+              <a href="product.html">
+              <img src="images/carousel3.png" class="carouselImg">
+              </a>
+            </div>
           </div>
-          <img
-            src="images/index/index-main.png"
-            alt="PCの周りに集まる多国籍の仲間たち"
-          />
         </section>
+
         <!--ミッション-->
         <section id="mission">
           <h2 class="index-h2">MISSION</h2>
@@ -94,7 +108,7 @@
                 Goals（持続可能な開発目標）」に含まれる17つのグローバル目標のうち、以下の5つの目標の実現をミッションとしてサービスを展開しています。
               </p>
               <a href="mission.html">
-                <img src="images/button-more.png" alt="もっとみる" />
+                <img class="button-more" src="images/button-more.png" alt="もっとみる" />
               </a>
             </div>
           </div>
@@ -167,7 +181,7 @@
           </div>
           <div>
             <a id="product-more" href="product.html">
-              <img src="images/button-more.png" alt="もっとみる" />
+              <img class="button-more" src="images/button-more.png" alt="もっとみる" />
             </a>
           </div>
         </section>
@@ -548,5 +562,12 @@
         </div>
       </footer>
     </main>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- slickの読み込み -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script src="script.js"></script>
   </body>
 </html>
