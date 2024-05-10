@@ -33,6 +33,18 @@ $(function () {
 
     // 入力チェックをした結果をresultに格納
     let result = inputCheck();
+
+    // エラー判定とメッセージを取得
+    let error = result.error;
+    let message = result.message;
+
+    if (error == false) {
+      // フォーム送信は実際には行わず、送信成功メッセージのみ表示する
+      alert('お問い合わせを送信しました。')
+    } else {
+      // エラーメッセージを表示する
+      alert(message);
+    }
   });
 
   // フォーカスが外れた時（blur）にフォームの入力チェックをする
